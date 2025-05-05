@@ -1,4 +1,4 @@
-# micro-frontend-webpeck
+# Micro-frontend-webpeck
 
 # Vite Federation Plugin Example
 
