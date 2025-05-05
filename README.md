@@ -17,8 +17,8 @@ This project demonstrates the usage of the **Vite Federation Plugin** to load re
    - The **Host App** is built and served using the `serve` command on port `3000`.
   
      ```bash
-      npm run dev  for host
-     (npm run build && npx serve dist -l 3001 --cors) for remote
+     npm run dev  -->  host
+     npm run build && npx serve dist -l 3001 --cors --> remote
 
      ```
 
