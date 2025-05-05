@@ -15,6 +15,12 @@ This project demonstrates the usage of the **Vite Federation Plugin** to load re
 4. **Build and Serve**:
    - The **Remote App** is built and served using the `serve` command on port `3001`.
    - The **Host App** is built and served using the `serve` command on port `3000`.
+  
+     ```bash
+      npm run dev  for host
+     (npm run build && npx serve dist -l 3001 --cors) for remote
+
+     ```
 
 5. **Test the Integration**: The user can test the dynamic loading of the remote component by clicking the button in the **Host App**.
 
