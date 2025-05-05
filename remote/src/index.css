@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+.main {
+    height: 500px;
+    width: 600px;
+    background-color: rgb(6, 20, 58);
+}
+
+.one {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    background-color: rgb(243, 174, 44);
+}
+.two {
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    background-color: rgb(243, 174, 44);
+}
+
+.mainouter{
+    height: 100vh;
+    width: 100vw;
+}
