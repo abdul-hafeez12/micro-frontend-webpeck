@@ -4,7 +4,7 @@
 
 This project demonstrates the usage of the **Vite Federation Plugin** to load remote components dynamically from a **Remote App** into a **Host App**. The **Host App** consumes a component exposed by the **Remote App**.
 
-## Explanation of the `README.md` Content:
+# Explanation of the Project Content:
 
 1. **Prerequisites**: Ensure the user has **Node.js** and **npm** installed.
    
