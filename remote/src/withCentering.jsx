@@ -10,7 +10,7 @@ export const withCentering = (WrappedComponent) => {
         'div',
         {
           className:
-            'border border-gray-300 p-6 rounded shadow bg-white max-h-full overflow-auto',
+            'border border-gray-300 p-6 rounded shadow bg-white inline-block',
         },
         React.createElement(WrappedComponent, props) // Render the wrapped component (Remote content)
     );
@@ -19,7 +19,7 @@ export const withCentering = (WrappedComponent) => {
 
 // RemoteComponent: A simple component that displays content
 export const RemoteComponent = () => {
-  return React.createElement('div',  { className: 'flex justify-center items-center h-full' }, '👋 Hello from Remote Project A');
+  return React.createElement('div',  { className: 'flex justify-center items-center p-4 rounded' }, '👋 Hello from Remote Project A');
 };
 
 // Wrap the RemoteComponent with the HOC

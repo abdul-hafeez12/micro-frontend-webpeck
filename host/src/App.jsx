@@ -1,7 +1,7 @@
 
 import React, { Suspense } from 'react';
 // Lazy load remote module
-const RemoteComponentWithCentering = React.lazy(() => import('remoteApp/RemoteComponentWithCentering'));
+const RemoteComponentWithCentering = React.lazy(() => import('commonComponents/RemoteComponentWithCentering'));
 
 
 function App() {
@@ -19,7 +19,8 @@ function App() {
       <main className="bg-white p-4 md:col-start-2 flex flex-col h-full overflow-hidden">
         {/* Add your remote content here */}
         <Suspense fallback={<div>Loading remote...</div>}>
-           <RemoteComponentWithCentering />
+        <div className='p-2'><RemoteComponentWithCentering />
+        </div>
         </Suspense>
       </main>
 
