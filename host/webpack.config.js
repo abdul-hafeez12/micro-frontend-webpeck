@@ -28,7 +28,7 @@ module.exports = {
       name: "HostApp",
       filename: "remoteEntry.js",
       remotes: {
-        commonComponents: "remoteApp@http://localhost:3001/remoteEntry.js",
+        // remoteApp: "remoteApp@http://localhost:3001/remoteEntry.js",
       },
       shared: ["react", "react-dom"]
     }),
