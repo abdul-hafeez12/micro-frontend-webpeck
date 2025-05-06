@@ -23,9 +23,9 @@ export const RemoteComponent = () => {
 };
 
 // Wrap the RemoteComponent with the HOC
-export const RemoteComponentWithCentering = withCentering(RemoteComponent);
+export const RemoteComponentWithCenteringA = withCentering(RemoteComponent);
 
 
-export default RemoteComponentWithCentering;
+export default RemoteComponentWithCenteringA;
 
 

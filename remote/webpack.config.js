@@ -30,7 +30,8 @@ module.exports = {
       name: "remoteApp",
       filename: "remoteEntry.js",
       exposes: {
-        "./RemoteComponentWithCentering": "./src/withCentering.jsx"
+        "./RemoteComponentWithCenteringA": "./src/withCenteringA.jsx",
+        "./RemoteComponentWithCenteringB": "./src/withCenteringB.jsx"
       },
       shared: {
         react: { singleton: true, requiredVersion: "^18.0.0" },

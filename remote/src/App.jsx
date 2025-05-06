@@ -1,12 +1,16 @@
 import React from "react";
-import RemoteComponentWithCentering from "./withCentering.jsx";
+import RemoteComponentWithCenteringA from "./withCenteringA.jsx";
+import RemoteComponentWithCenteringB from "./withCenteringB.jsx";
+
 
 
 const App = () => {
    
     return (
          <div>
-            <RemoteComponentWithCentering />
+            <RemoteComponentWithCenteringA />
+            <RemoteComponentWithCenteringB />
+
          </div>
     )
 }
